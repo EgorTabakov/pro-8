@@ -31,7 +31,7 @@
                 <button class="accountBtn">My Account <i class="fas fa-caret-down"></i></button>
             </div>
         </div>
-        </div>
+        
         <div class="headerLine"></div>
         <div class="topNavWrap container-fluid">
             <nav class="topNav container">
@@ -72,21 +72,21 @@
                 <div class="line4"></div>
                 <div class="choose">
                     <label for="color">choose color
-                        <input list="color" type="color" name="color" placeholder="Red">
+                        <input list="col" type="color" name="color" id="color">
                     </label>
-                    <datalist id="color">
+                    <datalist id="col">
                         <option value=#0000ff label="Синий"></option>
                         <option value=#cccccc label="Серый"></option>
                     </datalist>
-                    <label for="size">choose size
-                        <input list="size" type="text" name="size" placeholder="xxl">
+                    <label for="sizes">choose size
+                        <input list="size" type="text" name="size" placeholder="xxl" id="sizes">
                     </label>
                     <datalist id="size">
                         <option value=XXL></option>
                         <option value=XL></option>
                     </datalist>
                     <label for="quantity">quantity
-                        <input list="quantity" type="number" name="quantity" placeholder="2">
+                        <input type="number" name="quantity" placeholder="2" id="quantity">
                     </label>
                 </div>
                 <button aria-label="addToCart"><img src="../src/assets/img/cart-2.png" alt="" class="addToCart">Add to

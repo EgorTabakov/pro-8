@@ -32,7 +32,6 @@
                 <button class="accountBtn">My Account <i class="fas fa-caret-down"></i></button>
             </div>
         </div>
-        </div>
         <div class="headerLine"></div>
         <div class="topNavWrap container-fluid">
             <nav class="topNav container">
@@ -49,7 +48,7 @@
     </header>
     <main class="newArrivalsWrap">
         <div class="newArrivals container-fluid">
-            <h2 class="newArrivalsText container">
+            <div class="newArrivalsText container">
                 <div>
                     <h2>New Arrivals</h2>
                 </div>
@@ -58,11 +57,11 @@
                     <a href="#">Men /</a>
                     <a href="#">New Arrivals</a>
                 </div>
+            </div>
         </div>
         <div class="shoppingCart container">
             <div class="shoppingCartProduct">
                 <div class="shoppingCartDetails">Product Details</div>
-
                 <div class="unitePrice">Unite Price</div>
                 <div class="quantity">Quantity</div>
                 <div class="shipping">Shipping</div>
@@ -80,7 +79,7 @@
                 </div>
 
                 <div class="unitePrice"><span>$150</span></div>
-                <div class="quantity"><input type="number" placeholder="0" pattern="([0-9],2)"
+                <div class="quantity"><input type="text" placeholder="0" pattern="([0-9],2)"
                         aria-label="input quantity"></div>
                 <div class="shipping"><span>Free</span></div>
                 <div class="subtotal"><span>$300</span></div>
@@ -89,43 +88,44 @@
 
                 </div>
             </div>
-            <div class="shoppingCartProduct">
-                <div class="shoppingCartDetails">
-                    <div class="shoppingCartImg"><img src="../src/assets/img/cart_pr_2.png" alt="product-1"></div>
-                    <div class="shoppingCartText">
-                        <h2>Mango People T-shirt</h2>
-                        <p><span>Color:</span> Red</p>
-                        <p><span>Size:</span> Xll</p>
-                    </div>
-                </div>
-                <div class="unitePrice"><span>$150</span></div>
-                <div class="quantity"><input type="number" placeholder="0" pattern="([0-9],2)"
-                        aria-label="input quantity"></div>
-                <div class="shipping"><span>Free</span></div>
-                <div class="subtotal"><span>$300</span></div>
-                <div class="action">
-                    <button aria-label="Delete product"><i class="fa fa-times-circle" aria-hidden="true"></i></button>
+        
+        <div class="shoppingCartProduct">
+            <div class="shoppingCartDetails">
+                <div class="shoppingCartImg"><img src="../src/assets/img/cart_pr_2.png" alt="product-1"></div>
+                <div class="shoppingCartText">
+                    <h2>Mango People T-shirt</h2>
+                    <p><span>Color:</span> Red</p>
+                    <p><span>Size:</span> Xll</p>
                 </div>
             </div>
-            <div class="shoppingCartProduct">
-                <div class="shoppingCartDetails">
-                    <div class="shoppingCartImg"><img src="../src/assets/img/cart_pr_3.png" alt="product-1"></div>
-                    <div class="shoppingCartText">
-                        <h2>Mango People T-shirt</h2>
-                        <p><span>Color:</span> Red</p>
-                        <p><span>Size:</span> Xll</p>
-                    </div>
-                </div>
-                <div class="unitePrice"><span>$150</span></div>
-                <div class="quantity"><input type="number" placeholder="0" pattern="([0-9],2)"
-                        aria-label="input quantity"></div>
-                <div class="shipping"><span>Free</span></div>
-                <div class="subtotal"><span>$300</span></div>
-                <div class="action">
-                    <button aria-label="Delete product"><i class="fa fa-times-circle" aria-hidden="true"></i></button>
-                </div>
+            <div class="unitePrice"><span>$150</span></div>
+            <div class="quantity"><input type="text" placeholder="0" pattern="([0-9],2)" aria-label="input quantity">
+            </div>
+            <div class="shipping"><span>Free</span></div>
+            <div class="subtotal"><span>$300</span></div>
+            <div class="action">
+                <button aria-label="Delete product"><i class="fa fa-times-circle" aria-hidden="true"></i></button>
             </div>
         </div>
+        <div class="shoppingCartProduct">
+            <div class="shoppingCartDetails">
+                <div class="shoppingCartImg"><img src="../src/assets/img/cart_pr_3.png" alt="product-1"></div>
+                <div class="shoppingCartText">
+                    <h2>Mango People T-shirt</h2>
+                    <p><span>Color:</span> Red</p>
+                    <p><span>Size:</span> Xll</p>
+                </div>
+            </div>
+            <div class="unitePrice"><span>$150</span></div>
+            <div class="quantity"><input type="text" placeholder="0" pattern="([0-9],2)" aria-label="input quantity">
+            </div>
+            <div class="shipping"><span>Free</span></div>
+            <div class="subtotal"><span>$300</span></div>
+            <div class="action">
+                <button aria-label="Delete product"><i class="fa fa-times-circle" aria-hidden="true"></i></button>
+            </div>
+        </div>
+    </div>
         <div class="shoppingCartButtons container">
             <button class="clear" aria-label="Clear shopping cart">clear shopping cart</button>
             <button class="continue" aria-label="continue shopping">continue shopping</button>
